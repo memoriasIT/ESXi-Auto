@@ -19,7 +19,7 @@ netcards=$5         # number of netcards to add
 # %%%%%%%%%%%%%%%%   functions   %%%%%%%%%%%%%%%%
 # print help if required
 help(){
-    echo "Usage: ./create-vm.sh datastorepath vmname vmtype vmsize netcards"
+    echo "Usage: ./createVM.sh datastorepath vmname vmtype vmsize netcards"
     echo ""
     echo "\$1 - datastorepath: full path to the datastore"
     echo "\$2 - vmname: name for the VM"
